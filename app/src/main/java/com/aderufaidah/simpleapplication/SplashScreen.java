@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 public class SplashScreen extends AppCompatActivity {
     PreferencesHelper instance;
+    private PreferencesHelper PreferencesHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
