@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Belajar Android</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment">Go to fragment</string>
+    <string name="activity">Go to activity</string>
+    <string name="second_activity">Second Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="blank_fragment">Blank fragment</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="splash_screen">Belajar Android</string>
+    <string name="email_anda">Email</string>
+    <string name="password_anda">Password</string>
+    <string name="email">Email</string>
+    <string name="silahkan_login">Login</string>
+    <string name="emaill">Email</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="hello">Hello</string>
+    <string name="name">username</string>
+    <string name="title_activity_login">"Login "</string>
+    <string name="next">NEXT</string>
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aderufaidah.simpleapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="495dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent">
+
+    <Button
+        android:id="@+id/buttonFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Fragment"
+        android:onClick="fragment"
+        tools:layout_editor_absoluteY="180dp"
+        tools:layout_editor_absoluteX="125dp"/>
+
+    <Button
+        android:id="@+id/buttonactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Activity"
+        android:onClick="intent"
+        tools:layout_editor_absoluteY="231dp"
+        tools:layout_editor_absoluteX="125dp" />
+
+    </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+
